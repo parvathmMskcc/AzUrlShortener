@@ -12,7 +12,7 @@ namespace Cloud5mins.domain
         public ShortResponse (string host, string longUrl, string endUrl, string title)
         {
             LongUrl = longUrl;
-            ShortUrl = string.Concat(host, "/", endUrl);
+            ShortUrl = string.Concat("https://uat.gomsk.org", "/", endUrl);
             Title = title;
 
         }
